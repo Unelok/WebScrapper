@@ -1,0 +1,8 @@
+Scrapper.cbp
+Scrapper.depend
+Scrapper.layout
+test.txt
+bin/
+obj/
+*.o
+scrapper

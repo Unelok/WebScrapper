@@ -1,0 +1,34 @@
+=
+{name -> Mon site web} # Correspond au nom de vôtre action
+{url -> http://www.perdu.com} # URL du site à récupérer
++
+{versioning -> 1}
+{option2 -> value}
+{option3 -> value}
+
+= 
+{name -> Mon deuxième site} # Deuxième action
+{url -> http://www.google.com} # URL à récupérer
++
+{option1 -> value}	#	Listes des options au format {KEY -> value}
+{option2 -> value}
+
+==
+{name -> Une première tâche}
+{second -> 30}	# Lance les deux requêtes HTTP toutes les 30 secondes
++
+{Mon site web, Mon deuxième site}
+
+==	# Lance la requête HTTP toutes les 2 minutes et 10 secondes
+name -> Une autre tâche
+{minute -> 2}
+{second -> 10}
++
+{Mon site web}
+
+==
+# Lance une requête HTTP toutes les six heures
+name -> Une autre tâche
+{hour -> 6}
++
+{Mon deuxième site}

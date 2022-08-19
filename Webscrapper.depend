@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1573738372 source:c:\users\loic\documents\esgi\projets\webscrapper\webscrapper\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<curl.h>
+	"struct.h"
+	<time.h>
+	<sys/types.h>
+	<sys/stat.h>
+
+1568023396 c:\users\loic\documents\esgi\projets\webscrapper\curl-7.66.0-win32-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"typecheck-gcc.h"
+
+1568173746 c:\users\loic\documents\esgi\projets\webscrapper\curl-7.66.0-win32-mingw\include\curl\curlver.h
+
+1568023396 c:\users\loic\documents\esgi\projets\webscrapper\curl-7.66.0-win32-mingw\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1568023396 c:\users\loic\documents\esgi\projets\webscrapper\curl-7.66.0-win32-mingw\include\curl\easy.h
+
+1568023396 c:\users\loic\documents\esgi\projets\webscrapper\curl-7.66.0-win32-mingw\include\curl\multi.h
+	"curl.h"
+
+1568023396 c:\users\loic\documents\esgi\projets\webscrapper\curl-7.66.0-win32-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1568023396 c:\users\loic\documents\esgi\projets\webscrapper\curl-7.66.0-win32-mingw\include\curl\typecheck-gcc.h
+
+1573738346 c:\users\loic\documents\esgi\projets\webscrapper\webscrapper\struct.h
+
